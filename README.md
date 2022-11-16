@@ -1,4 +1,4 @@
-#Simple MNIST NN from scratch
+# Simple MNIST NN from scratch
 
 ## Equation
 ### Forward propagation
