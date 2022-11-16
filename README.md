@@ -1,6 +1,25 @@
-# Simple MNIST NN from scratch
+# Implementing Classification Neural Network from Scratch
 
-## Equation
+The idea here is to share how to build neural network from scratch without using TensorFlow and PyTorch
+
+## Prerequisites
+1. Python
+
+2. Numpy
+
+3. Matplotlib
+
+
+## Usage
+Training the model by executing the following command:
+```bash
+python train.py
+```
+Takes about 20s on CPU to achieve ~90% test accuracy on MNIST dataset.
+
+## Equation 
+Following is the different equation being used in training the neural network
+
 ### Forward propagation
 
 Z[1]=W[1]X+b[1] 
@@ -36,3 +55,11 @@ W[1]:=W[1]−αdW[1]
 b[1]:=b[1]−αdb[1]
 
 ![Correctness Image](Correctness.png)
+
+### More Resources
+- Building a Neural Network from Scratch
+https://jonathanweisberg.org/post/A%20Neural%20Network%20from%20Scratch%20-%20Part%201/
+
+- Mnist dataset
+http://yann.lecun.com/exdb/mnist/
+
