@@ -13,7 +13,7 @@ The idea here is to share how to build neural network from scratch without using
 ## Usage
 Training the model by executing the following command:
 ```bash
-python train.py
+python nn.py
 ```
 Takes about 20s on CPU to achieve ~90% test accuracy on MNIST dataset.
 
